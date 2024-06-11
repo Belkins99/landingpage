@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#header-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/pitch.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 2rem 10rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nav-links a:hover {
+    color: aqua;
+}
+
+
+#ul-lists {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+
+.navitems {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background-color: transparent;
+    padding: 2px 26px;
+    border-radius: 2rem;
+    border: 2px solid white;
+    color: white;
+    
+}
+
+#bot{
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 7rem;
+    padding: 10px 30px;
+    
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-text {
+    color: white;
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-text h2 {
+    font-size: 3rem;
+    color: goldenrod;
+}
+
+.header-text h1 {
+    font-size: 5rem;
+}
+
+
+.about-section {
+    margin: 2rem 6rem;
+    display: flex;
+    gap: 4rem;
+
+}
+
+.images {
+    display: flex;
+    width: 50%;
+    gap: 2rem;
+
+
+}
+
+.about-text {
+    width: 50%;
+    font-size: 20px;
+
+}
+
+.about-text h3 {
+    color: orangered;
+    font-size: smaller;
+}
+
+.about-text h1 {
+    font-size: 30px;
+}
+
+.images img {
+    width: 40%;
+
+}
+
+.bon {
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 3rem;
+    border: 2px solid orangered;
+    border: none;
+}
+
+.bon a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.bon:hover {
+    background-color: grey;
+}
+
+.serve-section {
+    margin: 2rem 6rem;
+    margin-top: 10%;
+
+}
+
+.serve-images {
+    display: flex;
+    gap: 1rem;
+}
+
+.image{
+    width:50% ;
+
+    
+}
+
+.image img{
+    width: 100%;
+}
+
+.serve-text h3 {
+    color: orangered;
+    font-size: smaller;
+}
+
+.serve-text  h1 {
+    font-size: 30px;
+}
+
+.image a{
+    color: orangered;
+    text-decoration: none;
+}
+
+.serve-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.newclass{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    
+}
+
+.newclass h1{
+    color: aqua;
+    font-size: 2rem;
+}
+
+.tables{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
