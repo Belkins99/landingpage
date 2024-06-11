@@ -1,9 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    /* box-sizing: border-box; */
+    /* overflow-x: hidden; */
 }
+
+
 
 #header-bg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/pitch.jpg");
@@ -52,15 +55,15 @@ body {
     border-radius: 2rem;
     border: 2px solid white;
     color: white;
-    
+
 }
 
-#bot{
+#bot {
     font-size: 20px;
     margin-top: 10%;
     margin-left: 7rem;
     padding: 10px 30px;
-    
+
 }
 
 .btn a {
@@ -150,13 +153,13 @@ body {
     gap: 1rem;
 }
 
-.image{
-    width:50% ;
+.image {
+    width: 50%;
 
-    
+
 }
 
-.image img{
+.image img {
     width: 100%;
 }
 
@@ -165,34 +168,106 @@ body {
     font-size: smaller;
 }
 
-.serve-text  h1 {
+.serve-text h1 {
     font-size: 30px;
 }
 
-.image a{
+.image a {
     color: orangered;
     text-decoration: none;
 }
 
-.serve-btn{
+.serve-btn {
     text-align: center;
     margin-top: 2rem;
 }
 
-.newclass{
-    display: flex;
+.newclass {
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    
+    padding: 3rem 6rem;
+    width: 80%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.664);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
 }
 
-.newclass h1{
-    color: aqua;
-    font-size: 2rem;
+.p{
+    background-color: rgba(137, 43, 226, 0.295);
 }
 
-.tables{
+.newImage img {
+    width: 90%;
+}
+
+.row{
+    text-align: center;
+}
+
+.live {
+    text-align: center;
+    display: flex;
+}
+
+.tables {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f8f8f8;
+}
+
+.team {
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+.tables {
+    background-color: rgba(0, 0, 0, 0.295);
 }
